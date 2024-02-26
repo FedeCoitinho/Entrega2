@@ -10,7 +10,7 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/style.css" />
   </head>
   <body>
     <nav class="navbar navbar-expand-lg link">
@@ -41,9 +41,18 @@
               <a class="nav-link" href="./eventos.html">Eventos</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link" href="./menu.html">Menú</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="./nosotros.html">Nosotros</a>
+            </li>
+
+            <li class="nav-item">
               <a class="nav-link" href="./reservas.html">Reservas</a>
             </li>
           </ul>
+        
         </div>
       </div>
     </nav>
@@ -59,10 +68,10 @@
       <h1 class="title">Hace tu reserva</h1>
     </section>
 
-    <form class="reservas" action="form.php" method="post">
+    <form class="reserva" action="form.php" method="post">
       <label for="">Ingresa tu nombre</label>
       <input
-        class="res-nombre"
+        class="reserva-nombre"
         type="text"
         name="Nombre"
         id="Nombre"
@@ -71,16 +80,16 @@
 
       <label for="">Por favor ingresa tu email o numero de telefono</label>
       <input
-        class="res-mail"
+        class="reserva-mail"
         type="text"
         placeholder="ej:----@gmail /09X XXX XXX"
       />
 
       <label for="">Ingresa la fecha deseada</label>
-      <input class="res-fecha" type="date" name="fecha" id="fecha" />
+      <input class="reserva-fecha" type="date" name="fecha" id="fecha" placeholder="dd/mm/aa"/>
 
       <p>¿Deseas hacer una solicitud especifica en tu reserva?</p>
-      <textarea class="res-datos" name="" id="" cols="30" rows="10"></textarea>
+      <textarea class="reserva-datos" name="" id="" cols="30" rows="10" placeholder="Peticiones especiales para la reserva"></textarea>
     </form>
 
     <footer class="footer">&copy; Copyright 2024 HTML.am</footer>

@@ -10,7 +10,7 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/style.css" />
   </head>
   <body>
     <nav class="navbar navbar-expand-lg link">
@@ -41,6 +41,12 @@
               <a class="nav-link" href="./eventos.html">Eventos</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link" href="./menu.html">Menú</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="./reservas.html">Reservas</a>
             </li>
           </ul>
@@ -56,7 +62,7 @@
         id="Logo-bar"
       />
 
-      <h1 class="title-evento">Organizamos tu evento</h1>
+      <h1 class="title">Organizamos tu evento</h1>
     </section>
 
     <h2 class="sub-t sub-p">
@@ -66,24 +72,24 @@
 
       <form class="eventos" action="form.php" method="post">
         
-        <label class="ev-item" for="">Ingresa tu nombre</label>
-        <input
+        <label  for="">Ingresa tu nombre</label>
+        <input class="eventos-item"
           type="text"
           name="Nombre"
           id="Nombre"
           placeholder="ej:Federico coitnho"
         />
       
-        <label class="ev-item" for="">Por favor ingresa tu email</label>
-        <input type="email" placeholder="ej:XXXXXX@gmail.com" />
+        <label  for="">Por favor ingresa tu email</label>
+        <input class="eventos-item" type="email" placeholder="ej:XXXXXX@gmail.com" />
     
-        <label class="ev-item" for="">Ingresa la fecha deseada</label>
-        <input type="date" name="fecha" id="fecha" />
+        <label  for="">Ingresa la fecha deseada</label>
+        <input class="eventos-item" type="date" name="fecha" id="fecha" placeholder="dd/mm/aaaa"/>
     
     
 
-    <label class="ev-item" for="">Por favor ingresa los datos de tu evento</label>
-    <textarea class="ev-datos" name="" id="" cols="10" rows="6"></textarea>
+    <label  for="">Por favor ingresa los datos de tu evento</label>
+    <textarea class="eventos-item" class="eventos-datos" name="" id="" cols="10" rows="6" placeholder="Datos del evento"></textarea>
   </form>
 
   <footer class="footer">&copy; Copyright 2024 HTML.am</footer>

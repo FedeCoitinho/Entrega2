@@ -1,0 +1,25 @@
+
+.redes{
+
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin: 1rem; 
+    display: flex;  
+    align-items: center;
+    justify-content: space-around;
+}
+.link-redes{
+    font-size: 4rem;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+}
+
+.img-bar{
+    @extend .productos;
+
+    &-card{
+        width: 24rem;
+        border: none;
+    }
+}

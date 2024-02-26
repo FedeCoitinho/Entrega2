@@ -1,0 +1,62 @@
+.link{
+    @include link
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: black
+}
+
+.logo h1{
+    padding: 0 6rem;
+}
+
+.logo-bar{
+    width: 15rem;
+    height: 15rem;
+}
+
+.title{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 9rem;
+    color: $color-principal;
+    align-items: center;
+}
+
+
+.sub-t{
+    display: flex;
+    justify-content: center;
+    font-family: 'Teko', sans-serif;
+    font-size: 3rem;
+    
+}
+.sub-p{
+    padding: 2rem;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    font-family: 'Teko', sans-serif;
+    color: $color-principal;
+    background-color: black;
+    
+}
+
+
+
+@media screen and (max-width: 770px) {
+    .title{ font-size: 5rem;}
+    .title-evento {font-size: 5rem;}
+
+    .carta-orden{
+        display: block;
+        margin-bottom: 3rem;
+        
+    }
+}

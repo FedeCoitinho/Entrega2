@@ -1,0 +1,11 @@
+@mixin link{
+    display: flex;
+    background-color: $color-secundario;
+    font-family: 'Teko', sans-serif;
+    font-size: 25px;
+}
+
+@mixin espaciados ($margin, $width) {
+    margin-bottom: $margin;
+    width: $width;
+}

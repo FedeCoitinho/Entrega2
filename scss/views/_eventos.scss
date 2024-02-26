@@ -1,0 +1,19 @@
+
+
+.eventos{
+    margin: 2rem;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    &-item{
+        @include espaciados(2rem, 30rem);
+    
+    }
+
+    &-datos{
+        margin-bottom: 2rem;
+        width: 35rem;
+    }
+}

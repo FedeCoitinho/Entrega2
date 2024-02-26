@@ -1,0 +1,42 @@
+
+.carta{
+    margin-right: 5rem;
+    margin-left: 5rem;
+
+    &-orden{
+        display: inline-block;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        
+    }
+
+    h2, h3{
+        text-align: center;
+    }
+
+    ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    vertical-align: top;
+    }
+
+    &-item{
+    font-size: 2rem;
+    border: black solid 2px;
+    width:auto;
+    background-color: $color-secundario;
+    
+}
+
+
+}
+
+.sub-t-menu{
+    display: flex;
+   justify-content: center;
+   font-family: $fuente-primaria;
+   margin-top: 2rem;
+   font-size: 4rem;
+}

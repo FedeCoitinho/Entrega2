@@ -1,0 +1,14 @@
+.productos{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    max-width: 1200px;
+    margin: 2rem;
+    flex-wrap: wrap;
+    
+}
+
+.card{
+    width: 20rem;
+    border: none;
+}

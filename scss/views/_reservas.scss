@@ -1,0 +1,21 @@
+.reserva{
+    @extend .eventos;
+
+        &-nombre {
+            @include espaciados(2rem, 20rem);
+        }
+
+        &-mail{
+            @include espaciados(2rem, 20rem);
+        }
+
+        &-fecha{
+            @include espaciados(2rem, 20rem);
+        }
+
+        &-datos{
+            margin-bottom: 2rem;
+            width: 35rem;
+        }
+
+}
